@@ -22,27 +22,32 @@ url     : https://zorrotest.github.io/ # the base hostname & protocol for your s
 baseurl : / # does not include hostname
 title   : Zorro Test Page 
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+
+穷佐罗的Linux书
+
+这里是穷佐罗的Linux书。在这里，你能看到来自穷佐罗的个人技术文章。
+
+希望你喜欢。
 
 
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
-  url       :
+  name      : Zorro Zou
+  url       : https://zorrotest.github.io/
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
-  email     :
+  email     : mini.jerry@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  weibo     : https://weibo.com/orroz # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
@@ -55,7 +60,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: zorrotest/zorrotest.github.io
 repository_tree: master
 
 
@@ -84,14 +89,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: # true false (default), true
 
 
 ## => Paginate
@@ -102,7 +107,7 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: bootcdn # bootcdn (default), unpkg
 
 
 ## => Sharing
