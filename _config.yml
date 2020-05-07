@@ -23,13 +23,6 @@ baseurl : / # does not include hostname
 title   : Zorro Test Page 
 description: > # this means to ignore newlines until "Language & timezone"
 
-穷佐罗的Linux书
-
-这里是穷佐罗的Linux书。在这里，你能看到来自穷佐罗的个人技术文章。
-
-希望你喜欢。
-
-
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
