@@ -1,6 +1,11 @@
 ---
-layout: article
 title: Socket缓存究竟如何影响TCP的性能？
+tags: TeXt
+article_header:
+  type: cover
+  image:
+    src: /screenshot.jpg
+layout: article
 mathjax: true
 ---
 
